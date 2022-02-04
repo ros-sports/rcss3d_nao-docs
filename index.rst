@@ -16,6 +16,9 @@ Publishing / Subscription is performed using interfaces specific to the Nao (`na
 `nao_sensor_msgs`_), such that this simulated Nao robot can be substituted out for a real robot
 seamlessly.
 
+.. image:: images/rcss3d_agent_flowchart.png
+  :align: center
+
 The project is hosted on `Github`_ by ROS Sports.
 
 .. toctree::
