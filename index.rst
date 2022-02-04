@@ -3,18 +3,28 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Rcss3d Nao's documentation!
-======================================
+Rcss3d Nao
+============
+
+Rcss3d Nao is a ROS2 package that provides an interface to the RoboCup 3D Simulator SimSpark that
+closely matches a Softbank Nao robot interface.
+
+Publishing / Subscription is performed using interfaces specific to the Nao (`nao_command_msgs`_ and
+`nao_sensor_msgs`_), such that this simulated Nao robot can be substituted out for a real robot
+seamlessly.
+
+The project is hosted on `Github`_ by ROS Sports.
 
 .. toctree::
+   :hidden:from
    :maxdepth: 2
-   :caption: Contents:
 
+   installation
+   getting-started
+   topics
+   parameters
+   differences-with-real-robot
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. _nao_command_msgs: https://index.ros.org/p/nao_command_msgs/
+.. _nao_sensor_msgs: https://index.ros.org/p/nao_sensor_msgs/
+.. _Github: https://github.com/ijnek/rcss3d_nao
