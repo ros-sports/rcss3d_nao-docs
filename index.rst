@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Rcss3d Nao
-============
+==========
 
 Rcss3d Nao is a ROS2 package that provides an interface to the RoboCup 3D Simulator SimSpark that
 closely matches a Softbank Nao robot interface.
@@ -16,7 +16,7 @@ seamlessly.
 The project is hosted on `Github`_ by ROS Sports.
 
 .. toctree::
-   :hidden:from
+   :hidden:
    :maxdepth: 2
 
    installation
