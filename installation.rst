@@ -28,7 +28,7 @@ Source Installation
 *******************
 
 Source installation should work for almost any platform that has ROS2 installed on it.
-ROS2 Foxy onwards is supported. There is no alternative for ROS1 distros or older ROS2 distros.
+ROS2 Galactic onwards is supported. There is no alternative for ROS1 distros or older ROS2 distros.
 
 From within a ROS2 workspace, run the following code that clones Rcss3d Nao into your
 src directory, and builds your workspace:
