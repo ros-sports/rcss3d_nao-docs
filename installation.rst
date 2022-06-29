@@ -35,7 +35,7 @@ src directory, and builds your workspace:
 
 .. code-block:: console
 
-   git clone --recursive https://github.com/ros-sports/rcss3d_nao.git src/rcss3d_nao
+   git clone https://github.com/ros-sports/rcss3d_nao.git src/rcss3d_nao --branch ${ROS_DISTRO}
    rosdep install --from-paths src --ignore-src
    colcon build
 
