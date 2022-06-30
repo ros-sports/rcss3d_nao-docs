@@ -16,7 +16,6 @@ In a terminal, start the simulator by running:
 .. code-block:: console
 
     rcsoccersim3d
-    
 
 .. tip::
 
@@ -31,7 +30,7 @@ To run rcss3d_nao as a standalone application, in a new terminal, run:
 
   ros2 run rcss3d_nao rcss3d_nao
 
-Moving around the simulator camera with the WASD keys and the mouse, 
+Moving around the simulator camera with the WASD keys and the mouse,
 you should see your robot at the corner of the field, as below:
 
 .. image:: images/agent_in_simulator.png
@@ -78,7 +77,7 @@ In the simulation monitor, you should see the robot with its head twisted.
 .. image:: images/robot_face_left.png
 
 .. seealso::
-    
+
     See `joint_indexes`_ to see which joint corresponds to each index of the float array published in the previous message.
 
 .. tip::
@@ -94,21 +93,24 @@ In a new terminal, run:
 
 .. code-block:: console
 
-    ros2 topic echo vision/ball
+    ros2 topic echo soccer_vision_3d/balls
 
-The terminal will start echoing information the agent is publishing to the vision/ball topic, like below:
+The terminal will start echoing information the agent is publishing to the ``ssoccer_vision_3d/balls`` topic, like below:
 
 .. code-block:: console
 
     header:
-    stamp:
-        sec: 1621042538
-        nanosec: 632577496
-    frame_id: CameraTop_frame
-    center:
-        x: 2.4840080627559
-        y: 0.29839877333321424
-        z: -0.4931144624222307
+      stamp:
+          sec: 0
+          nanosec: 0
+      frame_id: CameraTop_frame
+      balls:
+      - center:
+          x: 14.210767712208556
+          y: -9.207436569105516
+          z: -0.4907249223563084
+      confidence:
+          confidence: -1.0
     ---
 
 Other topics the agent is publishing to are listed in :ref:`topics`.
@@ -117,7 +119,7 @@ By writing a node that subscribes to these topics, you can access this informati
 Summary
 *******
 
-That's it! You should by now know how to 
+That's it! You should by now know how to
 
 * start up a simulated robot
 * beam the robot
