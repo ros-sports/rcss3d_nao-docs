@@ -1,3 +1,5 @@
+.. _topics:
+
 Topics
 ######
 
@@ -14,15 +16,13 @@ Published Topics
 
 * **sensors/joint_positions** (`nao_sensor_msgs/msg/JointPositions`_)
 
-* **vision/ball** (`soccer_object_msgs/msg/Ball`_)
+* **soccer_vision_3d/balls** (soccer_vision_3d_msgs/msg/BallArray)
 
-* **vision/field_lines** (`soccer_object_msgs/msg/FieldLineArray`_)
+* **soccer_vision_3d/goalposts** (soccer_vision_3d_msgs/msg/GoalpostArray)
 
-* **vision/goalposts** (`soccer_object_msgs/msg/GoalpostArray`_)
+* **soccer_vision_3d/markings** (soccer_vision_3d_msgs/msg/MarkingArray)
 
-* **vision/robots** (`soccer_object_msgs/msg/RobotArray`_)
-
-* **vision/flags** (`soccer_object_msgs/msg/FlagArray`_)
+* **soccer_vision_3d/robots** (soccer_vision_3d_msgs/msg/RobotArray)
 
 
 Subscribed Topics
@@ -36,9 +36,4 @@ Subscribed Topics
 .. _nao_sensor_msgs/msg/Gyroscope: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#gyroscope
 .. _nao_sensor_msgs/msg/JointPositions: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#jointpositions
 .. _nao_sensor_msgs/msg/Touch: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#touch
-.. _soccer_object_msgs/msg/Ball: https://soccer-object-msgs.readthedocs.io/en/latest/vision_msgs.html#ball
-.. _soccer_object_msgs/msg/FieldLineArray: https://soccer-object-msgs.readthedocs.io/en/latest/vision_msgs.html#fieldlinearray
-.. _soccer_object_msgs/msg/RobotArray: https://soccer-object-msgs.readthedocs.io/en/latest/vision_msgs.html#robotarray
-.. _soccer_object_msgs/msg/GoalpostArray: https://soccer-object-msgs.readthedocs.io/en/latest/vision_msgs.html#goalpostarray
-.. _soccer_object_msgs/msg/FlagArray: https://soccer-object-msgs.readthedocs.io/en/latest/vision_msgs.html#flagarray
 .. _nao_command_msgs/msg/JointPositions: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs
