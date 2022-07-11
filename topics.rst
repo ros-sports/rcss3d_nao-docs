@@ -6,6 +6,10 @@ Topics
 Published Topics
 ****************
 
+.. warning::
+
+  ``vision/`` topics were added after ROS 2 Humble, and aren't available in Humble and previous distros.
+
 * **sensors/accelerometer** (`nao_sensor_msgs/msg/Accelerometer`_)
 
 * **sensors/angle** (`nao_sensor_msgs/msg/Angle`_)

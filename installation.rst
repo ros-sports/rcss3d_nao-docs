@@ -18,7 +18,7 @@ Rcss3d Nao is released to the ROS ecosystem. You can install the debian packages
 as following:
 
 .. code-block:: console
-  
+
   sudo apt update
   sudo apt install ros-${ROS_DISTRO}-rcss3d-nao
 
