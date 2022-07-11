@@ -11,5 +11,5 @@ Below is a guide for the maintainers of this documentation.
 `pip3 install -r requirements.txt`
 
 ### Compiling
-To compile locally, run `make html` in the root directory. 
+To compile locally, run `make html` in the root directory.
 The home documentation page can be opened by opening `_build/html/index.html` in a browser.
