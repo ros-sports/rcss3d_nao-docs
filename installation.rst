@@ -9,10 +9,7 @@ To install the packages, do one of the following:
 Binary Installation
 *******************
 
-.. warning::
-
-  The binary installation is not available yet. This warning will be removed when the
-  upcoming binary installation becomes available.
+Binary installation is available for ROS 2 Rolling only. Please follow source installation instructions for older distros.
 
 Rcss3d Nao is released to the ROS ecosystem. You can install the debian packages using apt
 as following:
