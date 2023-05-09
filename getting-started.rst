@@ -70,7 +70,7 @@ In a new terminal, run:
 
 .. code-block:: console
 
-    ros2 topic pub --once effectors/joint_positions nao_command_msgs/msg/JointPositions '{indexes:{0}, positions:{1.57}}'
+    ros2 topic pub --once effectors/joint_positions nao_command_msgs/msg/JointPositions '{indexes:[0], positions:[1.57]}'
 
 In the simulation monitor, you should see the robot with its head twisted.
 
