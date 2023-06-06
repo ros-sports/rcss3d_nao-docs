@@ -95,7 +95,7 @@ In a new terminal, run:
 
     ros2 topic echo soccer_vision_3d/balls
 
-The terminal will start echoing information the agent is publishing to the ``ssoccer_vision_3d/balls`` topic, like below:
+The terminal will start echoing information the agent is publishing to the ``soccer_vision_3d/balls`` topic, like below:
 
 .. code-block:: console
 
