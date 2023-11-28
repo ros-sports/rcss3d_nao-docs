@@ -7,9 +7,9 @@ Rcss3d Nao
 ==========
 
 Rcss3d Nao is a ROS2 package that provides an interface to the RoboCup 3D Simulator SimSpark that
-closely matches a Softbank Nao robot interface.
+closely matches a Aldebaran Nao robot interface.
 
-The package aims to provide an interface that closely matches that of the the physical Softbank NAO
+The package aims to provide an interface that closely matches that of the the physical Aldebaran NAO
 so it can be used in the RoboCup Standard Platform League.
 
 Publishing / Subscription is performed using interfaces specific to the Nao (`nao_command_msgs`_ and
